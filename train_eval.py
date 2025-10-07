@@ -50,7 +50,7 @@ def train_one_epoch(model, loader, optimizer, criterion, device):
         total += x.size(0)
     return total_loss/total, correct/total
 
-def evaluation(model, loader, device):
+def evaluate(model, loader, device):
     model.eval()
     total=0
     correct=0

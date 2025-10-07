@@ -1,6 +1,6 @@
 torch
 pandas
-torchversion
+torchvision
 scikit-learn
 matplotlib
 datasets

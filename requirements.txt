@@ -1,0 +1,6 @@
+torch
+pandas
+torchversion
+scikit-learn
+matplotlib
+datasets

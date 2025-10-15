@@ -10,3 +10,4 @@ def set_seed(seed=0):
     
 def device():
     return torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
